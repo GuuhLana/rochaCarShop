@@ -13,7 +13,7 @@
 :root {
     --darkBlue: #1B2431;
     --blue: #1E488F;
-    --gray: #A9A9A9;
+    --gray: #DCDCDC;
     --black: #000000;
     --white: #FFFFFF;
 }
@@ -174,7 +174,7 @@ section .filter-card {
 }
 
 .search-button:hover {
-    background: #dedede;
+    background: var(--black);;
     color: var(--blue);
 }
 
@@ -210,8 +210,12 @@ section .card-item {
     justify-content: space-around;
 }
 
-.card-item img {
+.normal-img  {
     width: 85%;
+}
+
+.big-img {
+    width: 60%;
 }
 
 .card-item h4 {
@@ -219,6 +223,7 @@ section .card-item {
 }
 
 .card-item p {
+    padding: 0.5rem;
     text-align: center;
     width: 90%;
     font-style: italic;
@@ -240,7 +245,7 @@ section .card-item {
 }
 
 .card-item button:hover {
-    background: #dedede;
+    background: var(--black);
     color: var(--blue);
 }
 
